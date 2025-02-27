@@ -24,6 +24,12 @@ const User = sequelize.define('Users', {
         type: DataTypes.STRING, // This will store the file path/filename
         allowNull: true, // Photo is optional
       },
+
+      roleId:{
+        type:DataTypes.INTEGER,
+        allowNull:false,
+        defaultValue:1,
+      }
 }, {
     timestamps: true // Enables createdAt & updatedAt auto-management
 });

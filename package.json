@@ -9,5 +9,15 @@
     "multer": "^1.4.5-lts.1",
     "pg": "^8.13.1",
     "sequelize": "^6.37.5"
+  },
+  
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "sequelize-mock": "^0.10.2",
+    "supertest": "^7.0.0"
   }
 }
